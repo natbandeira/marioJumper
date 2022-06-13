@@ -4,20 +4,21 @@
     box-sizing: border-box;
 }
 
-.game-board {
+.game-board { 
     width: 80%;
     height: 500px;
     border: 1px solid #333;
     margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+    position: relative; /* para respeitar a delimitação do frame */
+    overflow: hidden; /* esconder tudo que sai da delimitação do frame */
 }
 
 .pipe {
-    position: absolute;
+    position: absolute; /* para que nenhuma imagem interfira no comportamento das outra */
     bottom: 0;
     width: 80px;
-    /* animation: pipe-animation 2s infinite linear; */
+    left: 120px;
+    animation: pipe-animation 2s infinite linear;
 }
 
 .mario {
@@ -45,7 +46,7 @@
     }
 
     40%{
-        bottom: 180px;
+        bottom: 180px; 
     }
 
     50% {

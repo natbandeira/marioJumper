@@ -1,0 +1,1 @@
+This is a simple game I'm learning to train my HTML, CSS and Javascript skills, while having fun! The video is from [Manual Do Dev](https://www.youtube.com/watch?v=r9buAwVBDhA&list=LL&index=7&t=704s&ab_channel=ManualdoDev).
